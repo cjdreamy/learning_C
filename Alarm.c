@@ -7,7 +7,10 @@ char isWeekday = 'Y', haveClass = 'Y';
 
 int main(){
     
-    if (isWeekday == 'Y' && haveClass == 'Y'){
+    if 
+    
+    
+    (isWeekday == 'Y' && haveClass == 'Y'){
         printf("\nRings\n\n");
     }
     else {
