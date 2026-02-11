@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//smbolic constant
+#define PI 3.14
+
+const int MAX = 100;
+
+// literal constant
+int MIN = 0;
+
 int main() {
     int a = 0;
     for (int i = 1;i < 3; i++)
