@@ -1,2 +1,8 @@
 assg.txt
 .vscode/
+*.exe
+*.msi
+build/
+bin/
+*.o
+*.obj
