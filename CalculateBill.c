@@ -26,7 +26,8 @@
 
 // user defined function 
 
-int Bill, Units;
+int Units;
+float Bill;
 
 // fx prototyping
 
@@ -38,21 +39,21 @@ int main(){
     printf("\nEnter Number of Units: ");
      scanf("%d", &Units);
 
-     int Bill = CalculateBill(Units);
-     printf("bill is %d ", Bill);
+     Bill = CalculateBill(Units);
+     printf("bill is %.2f ", Bill);
      
 }
 
 int CalculateBill(int U){
     int B;
     if (U <= 100){
-        int B = 25 * U;
+        B = 25 * U;
     }
     else if (U <= 200){
-        int B = 30 * U;
+         B = 30 * U;
     }
     else{
-        int B = 35 * U;
+        B = 35 * U;
     }
     return B;
 }
